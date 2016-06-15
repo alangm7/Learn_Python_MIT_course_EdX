@@ -1,3 +1,5 @@
+#Problem set week 2, counting vowels in string
+
 s = 'aeiou'
 numVowels = 0
 
