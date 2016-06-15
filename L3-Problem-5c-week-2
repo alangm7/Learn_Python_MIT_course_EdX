@@ -1,16 +1,8 @@
-#code testing yet in EdX site
-
-def total(end):
-    result = 0
-    for item in range(end):
-        result = item + result
-    print result
-total(6)
-
-# - - - - - - - - - - - 
+#exercise L3 Problem 5c week 2
 
 end = 6
 count = 0
 for num in range(end):
-   count = num + count
-print count
+    if num > 0:
+        count = num + count
+print count + end
