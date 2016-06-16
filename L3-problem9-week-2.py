@@ -5,6 +5,9 @@ from random import randint
 
 number = input('Please think w number between 0 and 100: ')
 
-print ('Is your secret number ' + str(randint(0,100)))
+random = print ('Is your secret number ' + str(randint(0,100)) + '?')
 
-print ("Enter 'h' to indicate the guess is too hight. Enter 'l' to indicate the guess is low. Enter 'c' to indicate I guessed correctly.) + str(number)")
+letter = input ("Enter 'h' to indicate the guess is too hight. Enter 'l' to indicate the guess is low. Enter 'c' to indicate I guessed correctly.) + str(number)")
+
+if letter == 'h':
+    print ('Is your secret number ' + str(randint(0,number)) + '?')
