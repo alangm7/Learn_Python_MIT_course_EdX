@@ -1,8 +1,10 @@
-#exercise L3 Problem 5c week 2
+#exercise L3 Problem 5c week 2nusing while
 
 end = 6
 count = 0
-for num in range(end):
-    if num > 0:
-        count = num + count
-print count + end
+num = 1
+while num <= end:
+	count += num
+	num += 1
+	
+print (count)
