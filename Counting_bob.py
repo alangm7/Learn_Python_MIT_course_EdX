@@ -1,8 +1,7 @@
-s = 'bobobaeiou'
-numBobs = 0
+s = 'bobobojobooobooboobobooebbob'
+count = 0
 
-for char in s:
-	if char == 'b' and char == 'o' and char == 'b':
-		numBobs += 1
-
-print ('Number of times bob occurs is: ' + str(numBobs))
+for i in range(len(s)):
+	if s[i:i + 3] == 'bob':
+		count += 1
+print ('Number of times bob occurs is: ' + str(count))
