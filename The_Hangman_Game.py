@@ -30,3 +30,5 @@ def hangman(secretWord):
         print("Congratulations, you won!")
     else:
          print("Sorry, you ran out of guesses. The word was {0:s}.".format(secretWord))
+
+hangman(sea)
