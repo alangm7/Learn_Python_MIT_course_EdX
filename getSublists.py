@@ -6,5 +6,4 @@ def getSublists(L, n):
     sub = []
     for i in range(len(L) - n + 1):
         sub.append(L[i:i+n])
-        # print L[i:i+n]
     return sub
