@@ -6,9 +6,9 @@ with immutable values and returns the inverse of the dictionary
 def dict_invert(d):
 
     inv = {}
-    for k, v in d.iteritems():
-        keys = inv.setdefault(v, [])
-        keys.append(k)
+    for x, y in d.iteritems():
+        keys = inv.setdefault(y, [])
+        keys.append(x)
     for key in inv.keys():
         inv[key].sort()
     return inv
